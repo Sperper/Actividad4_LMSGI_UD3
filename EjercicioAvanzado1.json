@@ -1,0 +1,106 @@
+{
+    "escuela":[
+        {
+            "estudiantes": {
+
+                "estudiante": [
+
+                    {
+                        "id":"001",
+                        "nombre":"Manuel",
+                        "edad":19,
+                        "asignaturas": [
+
+                            {"id":1,"nombre":"Entornos de desarrollo", "calificacion":9},
+                            {"id":2,"nombre":"Programación", "calificacion":10},
+                            {"id":3,"nombre":"Lenguaje de marcas", "calificacion":8},
+                            {"id":4,"nombre":"Base de datos", "calificacion":9},
+                            {"id":5,"nombre":"FOL", "calificacion":9},
+                            {"id":6,"nombre":"Sistemas informáticos", "calificacion":10}
+
+                        ]
+
+                    },
+                    {   
+                        "id":"002",
+                        "nombre":"Paco",
+                        "edad":23,
+                        "asignaturas": [
+
+                            {"id":1,"nombre":"Entornos de desarrollo", "calificacion":5},
+                            {"id":2,"nombre":"Programación", "calificacion":2},
+                            {"id":3,"nombre":"Lenguaje de marcas", "calificacion":6},
+                            {"id":4,"nombre":"Base de datos", "calificacion":5},
+                            {"id":5,"nombre":"FOL", "calificacion":1},
+                            {"id":6,"nombre":"Sistemas informáticos", "calificacion":1}
+
+                        ]
+
+                    },
+                    {   
+                        "id":"003",
+                        "nombre":"Jesus",
+                        "edad":18,
+                        "asignaturas": [
+
+                            {"id":1,"nombre":"Entornos de desarrollo", "calificacion":9},
+                            {"id":2,"nombre":"Programación", "calificacion":10},
+                            {"id":3,"nombre":"Lenguaje de marcas", "calificacion":8},
+                            {"id":4,"nombre":"Base de datos", "calificacion":9},
+                            {"id":5,"nombre":"FOL", "calificacion":9},
+                            {"id":6,"nombre":"Sistemas informáticos", "calificacion":10}
+
+                        ]
+
+                    }
+            
+                ]
+
+            },
+            "profesores": {
+                
+                "profesor": [
+
+                    {
+                        "id":"101",
+                        "nombre":"Fernando",
+                        "edad":46,
+                        "asignaturas":[
+
+                            {"id":1, "nombre":"Entornos de desarrollo"},
+                            {"id":2, "nombre":"Programación"}
+
+                        ]   
+                    },
+                    {
+                        "id":"102",
+                        "nombre":"Antonio",
+                        "edad":58,
+                        "asignaturas":[
+
+                            {"id":3, "nombre":"Lenguaje de marcas"},
+                            {"id":4, "nombre":"Base de datos"}
+
+                        ]
+                    },
+                    {
+                        "id":"103",
+                        "nombre":"Marta",
+                        "edad":30,
+                        "asignaturas":[
+
+                            {"id":5, "nombre":"FOL"},
+                            {"id":6, "nombre":"Sistemas informáticos"}
+                            
+                        ]
+                    }
+
+                ]
+
+            }
+
+        }
+
+    ]   
+
+}

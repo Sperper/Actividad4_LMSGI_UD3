@@ -1,0 +1,43 @@
+{
+    "empleados": [
+        {
+            "id":1,
+            "nombre":"Marta Pérez",
+            "edad":25,
+            "cargo":"Programador",
+            "salario":2000,
+            "proyectos": [
+                {
+                    "id":101,
+                    "nombre": "Juego móvil",
+                    "fecha_inicio": "20/11/2023",
+                    "tareas":[
+                        
+                        {"id":201, "descripcion":"Picar código", "realizado": true}
+
+                    ]
+                }
+            ]
+        },
+        {
+            "id":2,
+            "nombre":"Jesus López",
+            "edad":28,
+            "cargo":"Diseño",
+            "salario":4500,
+            "proyectos": [
+                {
+                    "id":101,
+                    "nombre": "Juego móvil",
+                    "fecha_inicio": "25/11/2023",
+                    "tareas":[
+                        
+                        {"id":203, "descripcion":"Diseño de escenario", "realizado": false},
+                        {"id":204, "descripcion":"Diseño de personajes", "realizado": false}
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
